@@ -6,55 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "Authentication",
-			"item": [
-				{
-					"name": "Functional",
-					"item": [
-						{
-							"name": "login",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"exec": [
-											"//Tests",
-											"var jsonData = pm.response.json();",
-											"",
-											"console.log(jsonData.authorization)",
-											"",
-											"pm.globals.set('authorization', jsonData.authorization)"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n  \"email\": \"pcorrea@qa.com.br\",\n  \"password\": \"teste123\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{address_server_rest}}login",
-									"host": [
-										"{{address_server_rest}}login"
-									]
-								}
-							},
-							"response": []
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "User",
 			"item": [
 				{
@@ -717,6 +668,55 @@
 									],
 									"path": [
 										"{{_id_product}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Functional",
+					"item": [
+						{
+							"name": "login",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"//Tests",
+											"var jsonData = pm.response.json();",
+											"",
+											"console.log(jsonData.authorization)",
+											"",
+											"pm.globals.set('authorization', jsonData.authorization)"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"pcorrea@qa.com.br\",\n  \"password\": \"teste123\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{address_server_rest}}login",
+									"host": [
+										"{{address_server_rest}}login"
 									]
 								}
 							},
