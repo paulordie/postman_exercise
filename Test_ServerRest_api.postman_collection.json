@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "78bf5eac-4b3e-4ab7-b244-4afb44d0ac39",
+		"_postman_id": "339fd74e-7af0-497f-841e-3afa25685f49",
 		"name": "Test_ServerRest_api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -45,7 +45,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Paulo Correa\",\n  \"email\": \"pcorrea@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
+									"raw": "{\n  \"nome\": \"Paulo Correa\",\n  \"email\": \"pcorreaa@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -90,7 +90,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Paulo Correa\",\n  \"email\": \"pcorrea@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
+									"raw": "{\n  \"nome\": \"Paulo Correa\",\n  \"email\": \"pcorreaa@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -258,7 +258,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Paulo Correa test\",\n  \"email\": \"pcorrea@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
+									"raw": "{\n  \"nome\": \"Paulo Correa test\",\n  \"email\": \"pcorreaa@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -309,7 +309,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Paulo Correa test second\",\n  \"email\": \"pcorrea123@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
+									"raw": "{\n  \"nome\": \"Paulo Correa test second\",\n  \"email\": \"pcorrea_a@qa.com.br\",\n  \"password\": \"teste123\",\n  \"administrador\": \"true\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -416,7 +416,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Notebook\",\n  \"preco\": 4700,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
+									"raw": "{\n  \"nome\": \"Notebookair\",\n  \"preco\": 4700,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -495,7 +495,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Notebook\",\n  \"preco\": 4700,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
+									"raw": "{\n  \"nome\": \"Notebookair\",\n  \"preco\": 4700,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -575,7 +575,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Notebook\",\n  \"preco\": 4700,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
+									"raw": "{\n  \"nome\": \"Notebookair\",\n  \"preco\": 4700,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -654,7 +654,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"nome\": \"Notebook\",\n  \"preco\": 40,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
+									"raw": "{\n  \"nome\": \"Notebookair\",\n  \"preco\": 40,\n  \"descricao\": \"PC\",\n  \"quantidade\": 1\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -706,7 +706,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"email\": \"pcorrea@qa.com.br\",\n  \"password\": \"teste123\"\n}",
+									"raw": "{\n  \"email\": \"pcorreaa@qa.com.br\",\n  \"password\": \"teste123\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
